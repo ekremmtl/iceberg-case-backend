@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node dist/main",
     "start:dev": "nest start --watch",
-    "build": "nest build",
+    "build": "NODE_OPTIONS=--max-old-space-size=460 nest build",
     "seed:admin": "ts-node src/seeds/seed-admin.ts",
     "test": "jest",
     "test:watch": "jest --watch",
