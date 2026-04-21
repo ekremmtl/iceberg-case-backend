@@ -6,9 +6,12 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   app.enableCors({
-    origin: "*",
-    methods: ["GET", "POST", "PATCH", "PUT", "DELETE", "OPTIONS"],
-    allowedHeaders: ["Content-Type", "Authorization"],
+    origin: [
+      "http://localhost:7979",
+      "https://iceberg-case-frontend.onrender.com",
+      "https://www.iceberg-case-frontend.onrender.com",
+    ],
+    credentials: true,
   });
 
   app.useGlobalPipes(
