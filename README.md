@@ -5,25 +5,25 @@ NestJS + MongoDB Atlas ile yazılmış emlak işlem ve komisyon yönetim API'si.
 ## Kurulum
 
 ```bash
-bun install
+npm install
 ```
 
 ## Çalıştırma
 
 ```bash
-bun run start:dev
+npm run start:dev
 ```
 
 ## Testler
 
 ```bash
-bun test
+npm test
 ```
 
 ## Kullanılmayan Kod Analizi
 
 ```bash
-bunx knip
+npx knip
 ```
 
 ## API Endpoint'leri

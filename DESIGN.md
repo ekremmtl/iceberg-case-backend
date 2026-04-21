@@ -57,5 +57,5 @@ fullName, email, phone
 `CommissionService` ve `StageTransitionService` için unit testler yazıldı. Bu iki servis tüm finansal ve iş kuralı mantığını içerdiğinden test kapsamı açısından en kritik yerler bunlar.
 
 ```bash
-bun test
+npm test
 ```
