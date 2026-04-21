@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Real estate transaction and commission management API",
   "scripts": {
-    "start": "node dist/main",
+    "start": "node dist/main.js",
     "start:dev": "nest start --watch",
     "build": "NODE_OPTIONS=--max-old-space-size=460 nest build",
     "seed:admin": "ts-node src/seeds/seed-admin.ts",
